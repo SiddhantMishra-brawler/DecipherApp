@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Hindi"
+    android:id="@+id/hindi"
+    app:showAsAction="never"/>
+    <item
+        android:title="Kannada"
+        android:id="@+id/kannada"
+        app:showAsAction="never"/>
+    <item
+        android:title="Tamil"
+        android:id="@+id/tamil"
+        app:showAsAction="never"/>
+    <item
+        android:title="Marathi "
+        android:id="@+id/marathi"
+        app:showAsAction="never"/>
+    <item
+        android:title="Urdu "
+        android:id="@+id/urdu"
+        app:showAsAction="never"/>
+</menu>

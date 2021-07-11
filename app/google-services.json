@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "749955364146",
+    "firebase_url": "https://docxter-169a6.firebaseio.com",
+    "project_id": "docxter-169a6",
+    "storage_bucket": "docxter-169a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749955364146:android:517c8e4b122809e788132b",
+        "android_client_info": {
+          "package_name": "com.example.docxter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749955364146-rhfqt8hc6nhg5ph8en5c6ogs1ovdc3hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.docxter",
+            "certificate_hash": "1872499e48f5a04acfe2ab2beffa0525220e3112"
+          }
+        },
+        {
+          "client_id": "749955364146-3nnomulb479cn3jv1ap37i0fb7npdv8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQHe1uG3KqzGraQl00XLfqEBgIrUs9fII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749955364146-3nnomulb479cn3jv1ap37i0fb7npdv8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

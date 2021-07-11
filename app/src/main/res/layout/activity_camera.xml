@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Camera">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:elevation="600dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="MOVE THE CAMERA FRAME OVER TEXT TO READ OR TRANSLATE...Cover the Camera Frame with hand to avoid text loss since processing is real time"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScanActivity">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/scCards"
+        app:cardElevation="500dp"
+        app:cardCornerRadius="40dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:text="Scanned Results :"
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:textStyle="normal"
+            android:layout_margin="20dp"
+            android:id="@+id/output"
+            android:textSize="23sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:layout_below="@+id/scCards"
+        android:layout_marginTop="400dp"
+        android:background="@color/colorAccent"
+        android:text="Scan"
+        android:id="@+id/scbtn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/scbtn"
+        android:layout_marginTop="19dp"
+        android:background="@color/colorPrimary"
+        android:text="Web Search"
+        android:id="@+id/webS"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   </RelativeLayout>
+</ScrollView>
