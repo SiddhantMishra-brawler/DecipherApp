@@ -9,4 +9,5 @@ With this Android application called Decipher, we aim at solving the problem whi
 
 ## Demo
 
-https://im.ezgif.com/tmp/ezgif-1-cfb1b524b2ad.mp4
+
+https://photos.app.goo.gl/3MNcmcJzQRnyY44YA
